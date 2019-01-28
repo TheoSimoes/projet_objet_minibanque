@@ -24,7 +24,6 @@ namespace ConsoleApp
             
 
             Compte compteDupont = new Compte();
-
             compteDupont.IdCompte = 01;
             compteDupont.Libelle = "Compte Courant Michel";
             compteDupont.Type = "Compte Courant";
