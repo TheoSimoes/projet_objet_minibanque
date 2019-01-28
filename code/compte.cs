@@ -20,6 +20,14 @@ namespace ConsoleApp
 
             private int credit;
 
+            private int debit;
+
+public int Debit
+            {
+                get{return Debit;}
+                set{debit = value;}
+            }
+
 public int Credit
             {
                 get {return Credit;}
@@ -66,12 +74,18 @@ public DateTime DateOuverture
                 Console.WriteLine("Le nouveau solde est de " + solde);
             }
 
+            public void Debiter()
+            {
+                Console.WriteLine("somme à retirez : " + debit);
+                solde = solde - debit;
+                Console.WriteLine("Le nouveau solde est de " + solde);
+            }
 
 
 
 
 
 
-      }
+    }
     
 }
