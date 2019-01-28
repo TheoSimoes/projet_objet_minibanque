@@ -31,3 +31,9 @@ C:\Users\theos_ilq6a0g\Desktop\projet_objet_minibanque\projet_objet_minibanque\c
 C:\Users\theos_ilq6a0g\Desktop\projet_objet_minibanque\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.AssemblyInfo.cs
 C:\Users\theos_ilq6a0g\Desktop\projet_objet_minibanque\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.dll
 C:\Users\theos_ilq6a0g\Desktop\projet_objet_minibanque\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.pdb
+D:\EPSI\COURS\BTS PPE\Git Hub\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.csprojAssemblyReference.cache
+D:\EPSI\COURS\BTS PPE\Git Hub\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.csproj.CoreCompileInputs.cache
+D:\EPSI\COURS\BTS PPE\Git Hub\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.AssemblyInfoInputs.cache
+D:\EPSI\COURS\BTS PPE\Git Hub\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.AssemblyInfo.cs
+D:\EPSI\COURS\BTS PPE\Git Hub\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.dll
+D:\EPSI\COURS\BTS PPE\Git Hub\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.pdb
