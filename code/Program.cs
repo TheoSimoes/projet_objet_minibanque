@@ -28,7 +28,6 @@ namespace ConsoleApp
 
             operationDupont.Afficher();
 
-
             Compte compteDupont = new Compte();
 
             compteDupont.IdCompte = 01;
@@ -46,3 +45,4 @@ namespace ConsoleApp
 
     }
 }
+
