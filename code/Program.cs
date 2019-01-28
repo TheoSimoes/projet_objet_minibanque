@@ -21,7 +21,7 @@ namespace ConsoleApp
 
             Operation operationDupont;
             operationDupont = new Operation();
-            
+
 
             Compte compteDupont = new Compte();
 
@@ -32,6 +32,7 @@ namespace ConsoleApp
             compteDupont.DateOuverture = new DateTime(2018, 05, 04);
 
             compteDupont.Afficher();
+            //785485248524852
 
         }
 
