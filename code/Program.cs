@@ -21,6 +21,12 @@ namespace ConsoleApp
 
             Operation operationDupont;
             operationDupont = new Operation();
+            operationDupont.Date = "02-03-2015";
+            operationDupont.Montant = "850€";
+            operationDupont.Debit = "250€";
+            operationDupont.Libelle = "Livret A";
+
+            operationDupont.Afficher();
 
 
             Compte compteDupont = new Compte();
