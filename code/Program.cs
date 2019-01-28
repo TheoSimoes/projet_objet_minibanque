@@ -30,12 +30,14 @@ namespace ConsoleApp
             compteDupont.Type = "Compte Courant";
             compteDupont.Solde = 5000;
             compteDupont.DateOuverture = new DateTime(2018, 05, 04);
-
+            compteDupont.Debit = 179;
+            compteDupont.Credit = 450;
+            compteDupont.Crediter();
+            compteDupont.Debiter();
             compteDupont.Afficher();
 
         }
 
-
-
+        
     }
 }

@@ -1,4 +1,3 @@
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +17,22 @@ namespace ConsoleApp
             private int solde;
 
             private DateTime dateOuverture;
+
+            private int credit;
+
+            private int debit;
+
+public int Debit
+            {
+                get{return Debit;}
+                set{debit = value;}
+            }
+
+public int Credit
+            {
+                get {return Credit;}
+                set {credit = value;}
+            }
 
 
 
@@ -52,12 +67,25 @@ public DateTime DateOuverture
                 Console.WriteLine(" " + idCompte + " " + libelle + " " + type +" " +solde+ " " +dateOuverture );
             }
 
+            public void Crediter()
+            {
+                Console.WriteLine("somme à versez : " + credit);
+                solde = solde + credit;
+                Console.WriteLine("Le nouveau solde est de " + solde);
+            }
+
+            public void Debiter()
+            {
+                Console.WriteLine("somme à retirez : " + debit);
+                solde = solde - debit;
+                Console.WriteLine("Le nouveau solde est de " + solde);
+            }
 
 
 
 
 
 
-      }
+    }
     
 }

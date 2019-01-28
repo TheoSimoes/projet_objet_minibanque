@@ -31,3 +31,14 @@ C:\Users\theos_ilq6a0g\Desktop\projet_objet_minibanque\projet_objet_minibanque\c
 C:\Users\theos_ilq6a0g\Desktop\projet_objet_minibanque\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.AssemblyInfo.cs
 C:\Users\theos_ilq6a0g\Desktop\projet_objet_minibanque\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.dll
 C:\Users\theos_ilq6a0g\Desktop\projet_objet_minibanque\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.pdb
+C:\Users\34gas\Desktop\EPSI\Cours\SEM2\PHP MYSQL\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.csprojAssemblyReference.cache
+C:\Users\34gas\Desktop\EPSI\Cours\SEM2\PHP MYSQL\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.csproj.CoreCompileInputs.cache
+C:\Users\34gas\Desktop\EPSI\Cours\SEM2\PHP MYSQL\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.AssemblyInfoInputs.cache
+C:\Users\34gas\Desktop\EPSI\Cours\SEM2\PHP MYSQL\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.AssemblyInfo.cs
+C:\Users\34gas\Desktop\EPSI\Cours\SEM2\PHP MYSQL\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.dll
+C:\Users\34gas\Desktop\EPSI\Cours\SEM2\PHP MYSQL\projet_objet_minibanque\code\obj\Debug\netcoreapp2.1\code.pdb
+C:\Users\34gas\Desktop\EPSI\Cours\SEM2\PHP MYSQL\projet_objet_minibanque\code\bin\Debug\netcoreapp2.1\code.deps.json
+C:\Users\34gas\Desktop\EPSI\Cours\SEM2\PHP MYSQL\projet_objet_minibanque\code\bin\Debug\netcoreapp2.1\code.runtimeconfig.json
+C:\Users\34gas\Desktop\EPSI\Cours\SEM2\PHP MYSQL\projet_objet_minibanque\code\bin\Debug\netcoreapp2.1\code.runtimeconfig.dev.json
+C:\Users\34gas\Desktop\EPSI\Cours\SEM2\PHP MYSQL\projet_objet_minibanque\code\bin\Debug\netcoreapp2.1\code.dll
+C:\Users\34gas\Desktop\EPSI\Cours\SEM2\PHP MYSQL\projet_objet_minibanque\code\bin\Debug\netcoreapp2.1\code.pdb
