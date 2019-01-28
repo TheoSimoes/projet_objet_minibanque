@@ -21,6 +21,7 @@ namespace ConsoleApp
 
             Operation operationDupont;
             operationDupont = new Operation();
+            
 
             Compte compteDupont = new Compte();
 
