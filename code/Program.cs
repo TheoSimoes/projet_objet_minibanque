@@ -23,14 +23,14 @@ namespace ConsoleApp
             operationDupont = new Operation();
 
             Compte compteDupont = new Compte();
-
             compteDupont.IdCompte = 01;
             compteDupont.Libelle = "Compte Courant Michel";
             compteDupont.Type = "Compte Courant";
             compteDupont.Solde = 5000;
             compteDupont.DateOuverture = new DateTime(2018, 05, 04);
-
+            compteDupont.Credit = 250; 
             compteDupont.Afficher();
+            compteDupont.Crediter();
 
         }
 
