@@ -21,7 +21,11 @@ namespace ConsoleApp
 
             Operation operationDupont;
             operationDupont = new Operation();
-            
+            operationDupont.Date = new DateTime (2015, 03, 02);
+            operationDupont.Montant = "850€";
+            operationDupont.Debit = "250€";
+            operationDupont.Libelle = "Livret A";
+            operationDupont.Afficher();
 
             Compte compteDupont = new Compte();
             compteDupont.IdCompte = 01;
@@ -34,6 +38,7 @@ namespace ConsoleApp
             compteDupont.Crediter();
             compteDupont.Debiter();
             compteDupont.Afficher();
+            //785485248524852
 
         }
 
