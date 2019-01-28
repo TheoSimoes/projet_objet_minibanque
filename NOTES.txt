@@ -1,0 +1,5 @@
+compte : 
+2 types de comptes
+
+compte courant : pas de plafond, decouvert autorisé
+livret A : plafond a 22 950€, pas de decouvert
