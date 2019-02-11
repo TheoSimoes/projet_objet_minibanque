@@ -9,6 +9,11 @@ namespace ConsoleApp
     class Client
     {
         private int id;
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
 
         private string nom;
         public string Nom
@@ -43,7 +48,7 @@ namespace ConsoleApp
         }
 
 
-        public void Afficher ()
+        public void AfficherClients ()
         {
             Console.WriteLine("nom :" + nom + ", prénom :" + prenom + ", mail du client :" + mailClient + ", tel du client");
         }
