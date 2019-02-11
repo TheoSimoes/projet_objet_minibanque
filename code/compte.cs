@@ -62,7 +62,7 @@ public DateTime DateOuverture
                 set { dateOuverture = value;}
             }
 
-             public void Afficher()
+            public void Afficher()
             {
                 Console.WriteLine(" " + idCompte + " " + libelle + " " + type +" " +solde+ " " +dateOuverture );
             }
