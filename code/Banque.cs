@@ -35,6 +35,32 @@ namespace ConsoleApp
                     return compte;
                 }
             }
+                return null;
+        }
+        private List<Client> clients = new List<Client>();
+        
+
+        
+        public void AjouterClient(Client client)
+        {
+            clients.Add(client);
+        }
+
+        public void AfficherClient()
+        {
+           foreach(Client client in clients)
+            {
+                client.AfficherClients();
+            }
+        }
+
+        public Client RechercherClient(int id)
+        {
+            foreach (Client client in clients)
+            {
+                if (client.Id == id)
+                    return client;
+            }
             return null;
         }
 
@@ -48,5 +74,15 @@ namespace ConsoleApp
         }
 
         #endregion
+        public void SupprimerClient(int id)
+        {
+            Client client = RechercherClient(id);
+            if (client != null)
+            {
+                clients.Remove(client);
+            }
+        }
+      
+
     }
 }
