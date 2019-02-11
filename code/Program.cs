@@ -37,7 +37,7 @@ namespace ConsoleApp
             compteDupont.Credit = 450;
             compteDupont.Crediter();
             compteDupont.Debiter();
-            compteDupont.Afficher();
+            compteDupont.AfficherCompte(compteDupont);
             //785485248524852
 
         }

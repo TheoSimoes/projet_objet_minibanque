@@ -9,7 +9,7 @@ namespace ConsoleApp
     
       class Compte
        {
-             private int idCompte;
+            private int idCompte;
             private string libelle;
 
             private string type;
@@ -21,6 +21,13 @@ namespace ConsoleApp
             private int credit;
 
             private int debit;
+
+public int Idcompte
+        {
+            get { return Idcompte; }
+            set { idCompte = value; }
+        }
+
 
 public int Debit
             {
@@ -62,11 +69,10 @@ public DateTime DateOuverture
                 set { dateOuverture = value;}
             }
 
-            public void Afficher()
+public void AfficherCompte(Compte compte)
             {
-                Console.WriteLine(" " + idCompte + " " + libelle + " " + type +" " +solde+ " " +dateOuverture );
+                Console.WriteLine(" " + compte.IdCompte + " " + compte.Libelle + " " + compte.Type + " " + compte.Solde + " " + compte.DateOuverture);
             }
-
             public void Crediter()
             {
                 Console.WriteLine("somme à versez : " + credit);
