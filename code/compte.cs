@@ -84,12 +84,5 @@ public void AfficherCompte(Compte compte)
                 solde = solde - debit;
                 return solde;
             }
-
-
-
-
-
-
     }
-    
 }
