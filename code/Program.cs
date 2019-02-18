@@ -13,7 +13,7 @@ namespace ConsoleApp
         {
             Client dupont;
             dupont = new Client();
-            dupont.Id = 1;
+            dupont.idClient = 1;
             dupont.Nom = " Dupont";
             dupont.Prenom = " Tnopud";
             dupont.MailClient = " dupont.tnopud@jémail.com";
@@ -21,12 +21,12 @@ namespace ConsoleApp
             dupont.AfficherClients();
 
             Operation operationDupont;
-            operationDupont = new Operation();
-            operationDupont.Date = new DateTime (2015, 03, 02);
-            operationDupont.Montant = "850€";
-            operationDupont.Debit = "250€";
-            operationDupont.Libelle = "Livret A";
-            operationDupont.Afficher();
+            operation = new Operation();
+            operation.Date = new DateTime (2015, 03, 02);
+            operation.Montant = "850€";
+            operation.Debit = "250€";
+            operation.Libelle = "Livret A";
+            operation.Afficher();
 
             Compte compteDupont = new Compte();
             compteDupont.IdCompte = 01;
