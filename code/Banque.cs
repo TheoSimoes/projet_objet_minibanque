@@ -18,7 +18,7 @@ namespace ConsoleApp
             comptes.Add(compte);
         }
 
-        public void AfficherComptes()
+        public void AfficherCompte()
         {
             foreach (Compte compte in comptes)
             {
@@ -58,7 +58,7 @@ namespace ConsoleApp
         {
             foreach (Client client in clients)
             {
-                if (client.Id == id)
+                if (client.IdClient == id)
                     return client;
             }
             return null;

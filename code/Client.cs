@@ -9,7 +9,7 @@ namespace ConsoleApp
     class Client
     {
         private int idClient;
-        public int idClient
+        public int IdClient
         {
             get { return idClient; }
             set { idClient = value; }

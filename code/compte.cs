@@ -14,13 +14,13 @@ namespace ConsoleApp
 
             private string type;
 
-            private int solde;
+            private double solde;
 
             private DateTime dateOuverture;
 
-            private int credit;
+            private double credit;
 
-            private int debit;
+            private double debit;
 
 public int Idcompte
         {
@@ -58,7 +58,7 @@ public string Type
                 get {return Type;}
                 set { type = value;}
             }
-public int Solde
+public double Solde
             {
                 get {return Solde;}
                 set { solde = value;}
@@ -73,18 +73,16 @@ public void AfficherCompte(Compte compte)
             {
                 Console.WriteLine(" " + compte.IdCompte + " " + compte.Libelle + " " + compte.Type + " " + compte.Solde + " " + compte.DateOuverture);
             }
-            public void Crediter()
+            public double Crediter(double credit)
             {
-                Console.WriteLine("somme à versez : " + credit);
                 solde = solde + credit;
-                Console.WriteLine("Le nouveau solde est de " + solde);
+                return solde;
             }
 
-            public void Debiter()
+            public double Debiter(double debit)
             {
-                Console.WriteLine("somme à retirez : " + debit);
                 solde = solde - debit;
-                Console.WriteLine("Le nouveau solde est de " + solde);
+                return solde;
             }
 
 

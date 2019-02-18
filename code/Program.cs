@@ -11,37 +11,66 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Client dupont;
             Banque banque = new Banque();
             banque.AjouterClient(new Client()
             {
-               idClient = 1,
-               
+               IdClient = 1,
+               Nom = "dupont", 
+               Prenom = "Tnopud",
+               TelClient = "06 85 41 23 69",
+               MailClient = "dupont.tnopud@jémail.com"
+            });
+            banque.AjouterClient(new Client()
+            {
+                IdClient = 2,
+                Nom = "Tissier",
+                Prenom = "Nicolas",
+                TelClient = "07 85 92 10 41",
+                MailClient = "nicolastissier@jémail.com"
+            });
+            banque.AjouterClient(new Client()
+            {
+                IdClient = 3,
+                Nom = "Carayon",
+                Prenom = "Gaspar",
+                TelClient = "07 74 23 01 02",
+                MailClient = "gasparcarayon@jémail.com"
             });
 
-            clients.AfficherClients();
 
-            Operation operationDupont;
+            banque.AfficherClient();
+
+            Compte compte = new Compte()
+            {
+
+                IdCompte = 01,
+                Libelle = "Compte Courant Michel",
+                Type = "Compte Courant",
+                Solde = 5000,
+                DateOuverture = new DateTime(2018, 05, 04),
+                Debit = 179,
+                Credit = 450
+            };
+
+            banque.AjouterCompte(compte);
+
+            Console.Write("somme à ajouter : ");
+            double montantCredit = Convert.ToDouble(Console.ReadLine());
+            compte.Crediter(montantCredit);
+
+            Console.Write("somme à retirer : ");
+            double montantDebit = Convert.ToDouble(Console.ReadLine());
+            compte.Debiter(montantDebit);
+            banque.AfficherCompte();
+
+
+            Operation operation;
             operation = new Operation();
             operation.Date = new DateTime (2015, 03, 02);
             operation.Montant = "850€";
             operation.Debit = "250€";
             operation.Libelle = "Livret A";
             operation.Afficher();
-
-            Compte compteDupont = new Compte();
-            compteDupont.IdCompte = 01;
-            compteDupont.Libelle = "Compte Courant Michel";
-            compteDupont.Type = "Compte Courant";
-            compteDupont.Solde = 5000;
-            compteDupont.DateOuverture = new DateTime(2018, 05, 04);
-            compteDupont.Debit = 179;
-            compteDupont.Credit = 450;
-            compteDupont.Crediter();
-            compteDupont.Debiter();
-            compteDupont.AfficherCompte(compteDupont);
-            //785485248524852
-
         }
 
         
