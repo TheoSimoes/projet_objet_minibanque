@@ -15,18 +15,19 @@ namespace ConsoleApp
             Banque banque = new Banque();
             banque.AjouterClient(new Client()
             {
+               idClient = 1,
                
             });
 
             clients.AfficherClients();
 
             Operation operationDupont;
-            operationDupont = new Operation();
-            operationDupont.Date = new DateTime (2015, 03, 02);
-            operationDupont.Montant = "850€";
-            operationDupont.Debit = "250€";
-            operationDupont.Libelle = "Livret A";
-            operationDupont.Afficher();
+            operation = new Operation();
+            operation.Date = new DateTime (2015, 03, 02);
+            operation.Montant = "850€";
+            operation.Debit = "250€";
+            operation.Libelle = "Livret A";
+            operation.Afficher();
 
             Compte compteDupont = new Compte();
             compteDupont.IdCompte = 01;

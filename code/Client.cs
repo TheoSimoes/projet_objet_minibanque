@@ -8,11 +8,11 @@ namespace ConsoleApp
 {
     class Client
     {
-        private int id;
-        public int Id
+        private int idClient;
+        public int idClient
         {
-            get { return id; }
-            set { id = value; }
+            get { return idClient; }
+            set { idClient = value; }
         }
 
         private string nom;
