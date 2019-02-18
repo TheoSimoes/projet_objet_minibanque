@@ -12,13 +12,13 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             Client dupont;
-            dupont = new Client();
-            dupont.Id = 1;
-            dupont.Nom = " Dupont";
-            dupont.Prenom = " Tnopud";
-            dupont.MailClient = " dupont.tnopud@jémail.com";
-            dupont.TelClient = "06 95 25 14 36";
-            dupont.AfficherClients();
+            Banque banque = new Banque();
+            banque.AjouterClient(new Client()
+            {
+               
+            });
+
+            clients.AfficherClients();
 
             Operation operationDupont;
             operationDupont = new Operation();
